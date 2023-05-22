@@ -1,5 +1,9 @@
 Correcciones que hacer.
 
+-Hover modificar obra.
+
+-Cuando guarda una nueva imagen guardar ruta toda en minuscula
+
 -Recuperar contraseña con Token via mail, mandar token por get que se autocomplete.
 
 -Hasheo usar SAL, no sha1 ni MD5 https://parzibyte.me/blog/2017/11/13/cifrando-comprobando-contrasenas-en-php/
