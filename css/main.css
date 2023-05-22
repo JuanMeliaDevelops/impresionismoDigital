@@ -1,0 +1,512 @@
+body {
+    background-color: #FAFEE4 !important;
+}
+
+::placeholder{
+    background-color: #FAFEE4;
+}
+
+h2 {
+    font-size: 1.8rem !important;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 2rem !important;
+}
+
+h4 {
+    font-size: 1.6rem !important;
+}
+
+h5 {
+    font-size: 1.5rem !important;
+}
+
+h6 {
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+}
+
+
+nav {
+    padding-top: 2%;
+    font-family: 'Alkalami', serif;
+    font-size: 1.1rem;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    align-items: center;
+}
+
+nav ul img {
+    width: 8vw;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul a:hover {
+    color: brown;
+}
+
+.btn-secondary {
+    --bs-btn-color: black !important;
+    --bs-btn-border-color: none !important;
+    background-color: white !important;
+}
+
+.botonHeader{
+    padding:0px !important;
+}
+
+.botonHeader:hover{
+    color: brown !important;
+}
+
+.botonHeader:focus{
+    color: brown !important;
+}
+
+
+.paginacion{
+    justify-content: center;
+    background-color: #FAFEE4 !important ;
+    
+}
+
+.paginacionItem{
+    color: black !important;
+}
+
+.sectionInicio {
+    padding-top: 4%;
+    text-align: center;
+}
+
+
+.sectionInicio ul {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionInicio ul a {
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sectionInicio ul a:hover {
+    opacity: 0.6;
+}
+
+.sectionInicio ul a li {
+    font-weight: 600;
+}
+
+.bannerContainer {
+    width: 100%;
+    height: 60vh;
+    background-image: url("../imgs/banner1.jpg");
+    background-size: cover;
+}
+
+.bannerContainer h6{
+    margin: auto;
+    padding-top: 10%;
+    color: white;
+    width: 40vw;
+    font-size: 2rem !important;
+}
+
+
+
+#obrasDestacadas {
+    padding-top: 4%;
+    text-align: center;
+}
+
+
+.obrasDestacadasContainer {
+    padding-top: 1%;
+}
+
+.obrasDestacadasContainer div {
+    margin: auto;
+    width: 50vw;
+    height: 45vh;
+}
+
+.obrasDestacadasContainer div img {
+    width: 100%;
+    height: 100%;
+}
+
+.obrasDestacadasContainer h6 {
+
+    padding: 4%;
+    margin: auto;
+    width: 40vw;
+
+
+}
+
+.editarObra{
+    color: black;
+    text-decoration: none;
+}
+
+.obraEditarH:hover{
+    color: black !important;
+    
+}
+
+.obraEditarH:hover a{
+    color: black;
+   opacity: 0.8;
+}
+
+
+.obraEditarH:hover .modifyObras{
+display: block;
+
+}
+.modifyObras{
+   position: relative;
+    margin: auto;
+    z-index: 200;
+    font-size: 2rem;
+    color: black;
+    display: none;
+}
+
+#tecnicasPintura {
+    padding-top: 4%;
+    text-align: center;
+}
+
+#tecnicasPintura div {
+    padding-top: 4%;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tecnicasPintura div h6 {
+    width: 30vw;
+}
+
+
+.videoImpresionismo {
+    width: 40vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.videoImpresionismo iframe {
+    width: 100% !important;
+    height: 100% !important;
+
+}
+
+#musica {
+    padding-top: 4%;
+
+    text-align: center;
+}
+
+#musica h6 {
+    margin: auto;
+    width: 40vw;
+}
+
+.musicaPlaylistContainer {
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 40vw;
+    height: auto;
+}
+
+
+footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+}
+
+footer div {
+    padding-top: 2%;
+    align-items: center !important;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+
+footer ul a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+footer ul a:hover {
+    color: wheat;
+    text-decoration: underline;
+}
+
+
+
+/* QUE ES EL IMPRESIONISMO */
+
+.queEs {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.queEs h4 {
+    padding-top: 4%;
+}
+
+.queEs h6 {
+    padding: 2%;
+    margin: auto;
+    width: 40vw;
+}
+
+.queEsInfo {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 4% !important;
+    margin: auto;
+    width: 80vw !important;
+}
+
+
+
+/* ARTISTAS INFLUYENTES  */
+
+.artistas {
+    padding-top: 4%;
+    text-align: center;
+}
+
+.artistas h3 {
+
+    padding-bottom: 4%;
+}
+
+.artistas h2 {
+
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.artistas h6 {
+    padding: 4%;
+    margin: auto;
+    width: 80vw;
+}
+
+.ArtistasContainer {
+    margin-bottom: 5%;
+}
+
+.carouselBootstrap {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    padding: 4%;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* GALERIA  */
+
+.galeria {
+    padding-top: 4%;
+    text-align: center;
+}
+
+.galeria h3 {
+    padding-bottom: 4%;
+}
+
+.galeria h6 {
+    width: 40vw;
+    margin: auto;
+}
+
+.galeria form {
+    padding: 4%;
+    align-items: center;
+}
+
+.galeria form input[type=text] {
+    background-color: #FAFEE4;
+    margin: 2%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+
+}
+
+.resultadosVolver {
+    margin-right: 70%;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.resultadosVolver:hover {
+    color: brown;
+}
+
+.obrasContainer {
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.obra {
+    padding: 2%;
+    overflow: hidden;
+    width: 40%;
+    height: auto;
+
+
+}
+
+.imagenObra {
+    width: 40vw;
+    height: 60vh;
+}
+
+.imagenObra img {
+    width: 100%;
+    height: 100%;
+}
+
+.infoObra {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.infoObra div {
+    width: 100%;
+    display: flex;
+}
+
+.infoObra h4 {
+    width: 100%;
+    padding: 2%;
+}
+
+.infoObra h6 {
+    width: 100%;
+}
+
+
+
+/* Login  */
+
+.login {
+    text-align: center;
+}
+
+.login h3 {
+    padding: 4%;
+}
+
+.formularioLogin {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formularioLogin input[type=text] {
+    background-color: #FAFEE4;
+    margin: 6%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+
+}
+
+.formularioLogin input[type=password] {
+    background-color: #FAFEE4;
+    margin: 6%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+
+}
+
+.formularioLogin textarea
+{background-color:#FAFEE4 ;
+}
+
+
+
+.formularioLogin h6 {
+    margin: 4%;
+    font-size: 1rem !important;
+}
+
+.formularioLogin a {
+    color: black;
+    text-decoration: none;
+}
+
+.formularioLogin a:hover {
+    color: brown;
+}
+
+
+/* register  */
+
+.registerSucces{
+   margin-top: 15%;
+    text-align: center;
+    height: 100vh;
+}
